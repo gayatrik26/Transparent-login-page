@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    background: url(./imgs/bg-2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.box input{
+    font-family: monospace;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 3rem;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background: transparent;
+    font-weight: 500;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+}
+.container{
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    padding: 20px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
+.box{
+    /* border: 2px solid pink; */
+    margin: 20px;
+}
+.container h1{
+    font-size: 5.6rem;
+    padding: 20px;
+    border-bottom: 2px dashed black;
+}
+.btn{
+    width: 30%;
+    height: 2rem;
+    outline: none;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: monospace;
+    margin-left: 173px;
+    background-color: transparent;
+    font-weight: 400;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+    transform: translatey(5px);
+}
+.box input:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+    transform: translatey(5px);
+}
+.btn:active{
+    background-color: rgba(255, 0, 0,0.2);
+}
+.box i{
+    scale: 2rem;
+    text-align: center;
+}
+/* @media onlyscreen and (max-width : 640px) {
+    .container{
+    position : absolute;
+    top : 20%;
+    left : 15%;
+    }
+}
+@media onlyscreen and ((min-width:640px) and (max-width : 1320px)) {
+    
+}
+@media onlyscreen and (min-width : 1320px) {
+    
+} */
+#email{
+    color: black;
+}
+
+/* .user{
+    z-index: 4;
+    /* position: absolute;
+    top: 8%;
+    left: 43.5%; */
+/* } */
+/* .iconn{
+    position: absolute;
+    top: 8%;
+    left: 43.5%;
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 50%;
+}  */
